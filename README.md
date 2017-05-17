@@ -7,4 +7,4 @@ Using the Support Vector Machine, you can predict the class label of your tweets
 
   svmModel("training_set.txt", "alb.txt", "output.txt")
   
-  where alb.txt can be swapped for any of the other input tweet files. This function will score your tweets using the training set as a reference and write the positive ones to the output file. A class label of 1 is positive, while a class label of 0 is negative. 
+where alb.txt is the testing set and can be swapped for any of the other input tweet files. This function will score your tweets using the training set as a reference and write the positive ones to the output file. A class label of 1 is positive, while a class label of 0 is negative. 
